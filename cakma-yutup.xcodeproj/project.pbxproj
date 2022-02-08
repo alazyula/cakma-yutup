@@ -13,6 +13,10 @@
 		D0B4E9B227B1F7FE001BE69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B4E9B027B1F7FE001BE69A /* Main.storyboard */; };
 		D0B4E9B427B1F7FF001BE69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B4E9B327B1F7FF001BE69A /* Assets.xcassets */; };
 		D0B4E9B727B1F7FF001BE69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B4E9B527B1F7FF001BE69A /* LaunchScreen.storyboard */; };
+		D0B4E9C027B20460001BE69A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9BF27B20460001BE69A /* Constants.swift */; };
+		D0B4E9C327B207EC001BE69A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9C227B207EC001BE69A /* Video.swift */; };
+		D0B4E9C627B20877001BE69A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9C527B20877001BE69A /* Model.swift */; };
+		D0B4E9C927B21508001BE69A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9C827B21508001BE69A /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D0B4E9B327B1F7FF001BE69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B4E9B627B1F7FF001BE69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B4E9B827B1F7FF001BE69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B4E9BF27B20460001BE69A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D0B4E9C227B207EC001BE69A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		D0B4E9C527B20877001BE69A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D0B4E9C827B21508001BE69A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				D0B4E9B327B1F7FF001BE69A /* Assets.xcassets */,
 				D0B4E9B527B1F7FF001BE69A /* LaunchScreen.storyboard */,
 				D0B4E9B827B1F7FF001BE69A /* Info.plist */,
+				D0B4E9BF27B20460001BE69A /* Constants.swift */,
+				D0B4E9C227B207EC001BE69A /* Video.swift */,
+				D0B4E9C527B20877001BE69A /* Model.swift */,
+				D0B4E9C827B21508001BE69A /* Response.swift */,
 			);
 			path = "cakma-yutup";
 			sourceTree = "<group>";
@@ -140,6 +152,10 @@
 				D0B4E9AF27B1F7FE001BE69A /* ViewController.swift in Sources */,
 				D0B4E9AB27B1F7FE001BE69A /* AppDelegate.swift in Sources */,
 				D0B4E9AD27B1F7FE001BE69A /* SceneDelegate.swift in Sources */,
+				D0B4E9C627B20877001BE69A /* Model.swift in Sources */,
+				D0B4E9C027B20460001BE69A /* Constants.swift in Sources */,
+				D0B4E9C327B207EC001BE69A /* Video.swift in Sources */,
+				D0B4E9C927B21508001BE69A /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
