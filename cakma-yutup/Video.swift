@@ -37,11 +37,11 @@ struct Video : Decodable {
         self.title = try snippetContainer.decode(String.self, forKey: .title)
         self.description = try snippetContainer.decode(String.self, forKey: .description)
         self.published = try snippetContainer.decode(Date.self, forKey: .published)
-        let thumbnailController = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .thumbnails)
-        let highController = try thumbnailController.nestedContainer(keyedBy: CodingKeys.self, forKey: .high)
+        let thumbnailContainer = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .thumbnails)
+        let highController = try thumbnailContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .high)
         self.thumbnail = try highController.decode(String.self, forKey: .thumbnail)
         
-        let resourceIdContainer = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .videoId)
+        let resourceIdContainer = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .resourceId)
         self.videoId = try resourceIdContainer.decode(String.self, forKey: .videoId)
         
     }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D072FBDF27B35E6700126A2E /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072FBDE27B35E6700126A2E /* VideoTableViewCell.swift */; };
+		D072FBE327B3684200126A2E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072FBE227B3684200126A2E /* CacheManager.swift */; };
+		D072FBE727B36B7B00126A2E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072FBE627B36B7B00126A2E /* DetailViewController.swift */; };
+		D072FBEC27B372D100126A2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D072FBEB27B372D100126A2E /* WebKit.framework */; };
 		D0B4E9AB27B1F7FE001BE69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9AA27B1F7FE001BE69A /* AppDelegate.swift */; };
 		D0B4E9AD27B1F7FE001BE69A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9AC27B1F7FE001BE69A /* SceneDelegate.swift */; };
 		D0B4E9AF27B1F7FE001BE69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4E9AE27B1F7FE001BE69A /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D072FBDE27B35E6700126A2E /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		D072FBE227B3684200126A2E /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		D072FBE627B36B7B00126A2E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D072FBEB27B372D100126A2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D0B4E9A727B1F7FE001BE69A /* cakma-yutup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cakma-yutup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B4E9AA27B1F7FE001BE69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B4E9AC27B1F7FE001BE69A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,17 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D072FBEC27B372D100126A2E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D072FBEA27B372D100126A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D072FBEB27B372D100126A2E /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0B4E99E27B1F7FE001BE69A = {
 			isa = PBXGroup;
 			children = (
 				D0B4E9A927B1F7FE001BE69A /* cakma-yutup */,
 				D0B4E9A827B1F7FE001BE69A /* Products */,
+				D072FBEA27B372D100126A2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,9 @@
 				D0B4E9C227B207EC001BE69A /* Video.swift */,
 				D0B4E9C527B20877001BE69A /* Model.swift */,
 				D0B4E9C827B21508001BE69A /* Response.swift */,
+				D072FBDE27B35E6700126A2E /* VideoTableViewCell.swift */,
+				D072FBE227B3684200126A2E /* CacheManager.swift */,
+				D072FBE627B36B7B00126A2E /* DetailViewController.swift */,
 			);
 			path = "cakma-yutup";
 			sourceTree = "<group>";
@@ -150,10 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B4E9AF27B1F7FE001BE69A /* ViewController.swift in Sources */,
+				D072FBE327B3684200126A2E /* CacheManager.swift in Sources */,
 				D0B4E9AB27B1F7FE001BE69A /* AppDelegate.swift in Sources */,
 				D0B4E9AD27B1F7FE001BE69A /* SceneDelegate.swift in Sources */,
 				D0B4E9C627B20877001BE69A /* Model.swift in Sources */,
 				D0B4E9C027B20460001BE69A /* Constants.swift in Sources */,
+				D072FBDF27B35E6700126A2E /* VideoTableViewCell.swift in Sources */,
+				D072FBE727B36B7B00126A2E /* DetailViewController.swift in Sources */,
 				D0B4E9C327B207EC001BE69A /* Video.swift in Sources */,
 				D0B4E9C927B21508001BE69A /* Response.swift in Sources */,
 			);
@@ -303,6 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L35865ALPT;
 				INFOPLIST_FILE = "cakma-yutup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L35865ALPT;
 				INFOPLIST_FILE = "cakma-yutup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
